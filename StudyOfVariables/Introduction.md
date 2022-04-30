@@ -16,9 +16,9 @@ requisitos:
 
 ## Scopo PHP
 
-"<?PHP
-    echo 'Hello World';
-?>"
+-   "<?PHP
+        echo 'Hello World';
+    ?>"
 
 * comando de retorno: echo
 
