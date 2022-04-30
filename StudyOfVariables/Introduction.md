@@ -17,7 +17,7 @@ requisitos:
 ## Scopo PHP
 
 <?PHP
-    echo 'Hello World'
+    echo 'Hello World';
 ?>
 
 * comando de retorno: echo
@@ -25,14 +25,14 @@ requisitos:
 ## Tipos de Variaveis
 
 <?PHP
-    $X = 10 // usa-se cifrao para criar uma variavel
+    $X = 10; // usa-se cifrao para criar uma variavel
 ?>
 
 ### Number 
 
 Exemplos:
 
-- $numero = 10 // Regras: sem espaço, e caracter especial
+- $numero = 10; // Regras: sem espaço, e caracter especial
 
 Se declara uma variavel qualquer, em formato camel case
 
@@ -43,12 +43,12 @@ Se declara uma variavel qualquer, em formato camel case
 
 Exemplo:
 
-- $numero = 10,5
+- $numero = 10,5;
 
 ### String 
 
 Exemplo 
-- $nome = 'Emmanoel'
+- $nome = 'Emmanoel';
 
 ### Boolean
 
@@ -56,9 +56,18 @@ Boolean é true ou false
 
 ### Exemplos
 
-* $nome = 'Emmanoel'
-* $idade = 24
-* $peso = 78,100
-* $Andando = true
-* $Cansado = false
-* $vazio = null
+* $nome = 'Emmanoel';
+* $idade = 24;
+* $peso = 78,100;
+* $Andando = true;
+* $Cansado = false;
+* $vazio = null;
+
+### Mesclar Variaveis
+
+<?PHP
+    $nome = 'Emmanoel';
+    $sobrenome = 'Dantas';
+    $nomeCompleto = "$nome $sobrenome";
+    echo $nomeCompleto;
+?>
