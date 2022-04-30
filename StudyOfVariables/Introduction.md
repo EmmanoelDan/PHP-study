@@ -71,3 +71,13 @@ Boolean é true ou false
     $nomeCompleto = "$nome $sobrenome";
     echo $nomeCompleto;
 ?>
+
+### concatenacao
+
+utiliza-se ".="
+
+exemplo:
+
+$nomeCompleto = $nome;
+$nomeCompleto .= $sobrenome; // esta concatenando com meu valor existente na variavel
+
