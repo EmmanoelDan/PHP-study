@@ -16,17 +16,17 @@ requisitos:
 
 ## Scopo PHP
 
-<?PHP
+"<?PHP
     echo 'Hello World';
-?>
+?>"
 
 * comando de retorno: echo
 
 ## Tipos de Variaveis
 
-<?PHP
+exemplo
     $X = 10; // usa-se cifrao para criar uma variavel
-?>
+
 
 ### Number 
 
@@ -65,12 +65,11 @@ Boolean é true ou false
 
 ### Mesclar Variaveis
 
-<?PHP
+- exemplo:
     $nome = 'Emmanoel';
     $sobrenome = 'Dantas';
     $nomeCompleto = "$nome $sobrenome";
     echo $nomeCompleto;
-?>
 
 ### concatenacao
 
